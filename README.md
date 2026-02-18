@@ -1,22 +1,22 @@
-# Kho tàng Writeup & Kiến thức An ninh mạng
+# Writeup cá nhân về quá trình học tập và thực hành trong lĩnh vực An Ninh Mạng
 
-Chào mừng bạn đến với kho lưu trữ cá nhân của tôi về các kỹ thuật tấn công và phòng thủ trong lĩnh vực an ninh mạng. Mục tiêu của repo này là tổng hợp, ghi chép và chia sẻ kiến thức về các lỗ hổng web phổ biến.
+Mục tiêu của repo này là tổng hợp, ghi chép và chia sẻ kiến thức về các lỗ hổng, lời giải lab, CTF,...
 
-## Mục lục các Lỗ hổng
+## Mục lục theo Nền tảng
 
-Dưới đây là danh sách các bài viết chi tiết cho từng loại lỗ hổng:
+Dưới đây là danh sách các writeup được phân loại theo từng nền tảng thực hành:
 
-*   ### [SQL Injection](./SQL_Injection/)
-    *Toàn tập về SQL Injection: Từ Lý thuyết đến Thực chiến.*
+*   ### 📖 [PortSwigger Web Security Academy](./PortSwigger/)
+    *Nơi tổng hợp lý thuyết và lời giải của các lab trên PortSwigger.*
 
-*   ### [Cross-Site Scripting (XSS)](./XSS/)
-    *(Sắp có...)*
+*   ### 💻 [TryHackMe](./TryHackMe/)
+    *(Sắp có) Lời giải cho các "Room" trên TryHackMe.*
 
-*   ### [Cross-Site Request Forgery (CSRF)](./CSRF/)
-    *(Sắp có...)*
+*   ### 🚩 [picoCTF](./picoCTF/)
+    *(Sắp có) Lời giải cho các challenge từ các kỳ thi picoCTF.*
 
-*   ### [Access Control](./ACCESS%20CONTROL/)
-    *(Sắp có...)*
+*   ### 🕹️ [Natas - OverTheWire](./Natas/)
+    *(Sắp có) Lời giải cho các level của game wargame Natas.*
 
 ---
 *Hy vọng những ghi chép này sẽ có ích cho bạn!*
