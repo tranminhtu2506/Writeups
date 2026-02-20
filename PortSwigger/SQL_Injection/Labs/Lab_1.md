@@ -132,7 +132,7 @@ Thông qua những quyền hiện có của user hiện tại với bảng produ
 - Khai thác quyền TRIGGER: 
     - Nếu bạn có quyền TRIGGER, bạn có thể tạo hoặc thay đổi hành vi của các trigger hiện có (nếu kết hợp được với CTE). Bạn có thể thiết lập để mỗi khi có ai đó chèn dữ liệu vào bảng products, một bản sao sẽ được gửi vào bảng mà bạn kiểm soát, hoặc thực hiện một hành động độc hại khác.
 - Tấn công từ chối dịch vụ (DoS) thông qua hàm nặng: Với quyền SELECT, bạn có thể thực thi các hàm hệ thống làm "treo" CPU hoặc chiếm dụng hết bộ nhớ RAM của database server:
-- 
+
 ![image](https://hackmd.io/_uploads/SymBPoS_Zg.png)
 
 - Sử dụng hàm set_config để làm thay đổi log hệ thống: Nếu bạn muốn xóa dấu vết, bạn có thể thử thay đổi các cấu hình session: UNION SELECT NULL, set_config('log_statement', 'none', false), NULL... Điều này có thể ngăn việc ghi lại các câu lệnh SQL độc hại của bạn vào file log của server.
