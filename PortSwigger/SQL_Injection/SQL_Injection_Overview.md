@@ -176,7 +176,7 @@ Khi đã chọn được một endpoint cụ thể (ví dụ: `https://api.examp
         2.  **Có thể khai thác (Blind):** Lỗ hổng tồn tại nhưng không hiển thị lỗi.
         3.  **Bị chặn âm thầm:** WAF/code đã lọc (sanitize) ký tự `'`.
 3.  **Làm rõ trường hợp C:**
-    *   **Thử payload logic:** `id=1 AND 1=1` (true) và `id=1 AND 1=2` (false). Nếu nội dung trang khác biệt -> **Xác nhận Blind SQLi**.
+    *   **Thử payload logic:** `id=1 AND 1=1` (true) và `id=1 AND 1=2` (false). Nếu nội dung trang khác biệt -> **Xác nhận Boolean SQLi**.
     *   **Thử payload thời gian:** `id=1 AND SLEEP(5)`. Nếu trang phản hồi chậm 5 giây -> **Xác nhận Time-based Blind SQLi**.
     *   Nếu tất cả đều không hiệu quả, khả năng cao là điểm vào này an toàn.
 
